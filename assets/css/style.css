@@ -1,0 +1,462 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+a {
+    cursor: pointer !important;
+}
+
+.visitor-nav-color {
+	background-color: #555fa9 !important;
+}
+
+.visitor-nav-color-darken-1 {
+	background-color: #4a5292 !important;
+}
+
+
+
+.drawer-close {
+    cursor: pointer;
+}
+
+.modal-trigger {
+    cursor: pointer;
+}
+
+.activator {
+    cursor: pointer;
+}
+
+.divider {
+	margin-bottom: 2px;
+}
+
+.drag-target {
+    z-index: 2 !important;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.side-nav {
+	overflow-y: hidden;
+	padding-bottom: 0;
+	height: 100% !important;
+}
+
+
+
+
+.container {
+    width: 100%;
+    padding: 0 .8rem;
+}
+
+.container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+.dropdown-content {
+    margin: 10px 0px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #212121;
+    font-size: 1.1rem;
+    text-overflow: ellipsis;
+}
+
+nav .nav-wrapper i {
+    font-size: 1.6rem;
+}
+
+nav a.button-collapse i {
+    font-size: 1.6rem;
+}
+
+ul.side-nav.fixed a.style-neighborhood {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+@media only screen and (max-width : 959px) {
+    ul.side-nav.fixed a.style-neighborhood {     
+    height: 56px;
+    line-height: 56px; 
+    }
+}
+
+
+nav ul a {
+    padding: 0px 22px;
+}
+
+@media only screen and (max-width : 959px) {
+    nav ul a { padding: 0px 13px; }
+}
+
+
+.fixed-bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
+
+
+
+@media only screen and (max-width : 959px) {
+    header, main, footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+footer .box {
+    text-align: center;
+}
+
+
+.favorite-icon {
+    font-size: 2rem;
+    padding: 0 32px 0 10px;
+}
+
+
+.footer-button {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+.map-box {
+    height: 100%;
+    background: #ffe0b2;
+}
+
+
+.map-container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+
+    padding-bottom: 54px;
+}
+
+@media only screen and (max-width : 959px) {
+    .map-container {
+        padding-right: 0;
+    }
+}
+
+.experience-bar {
+    height: 48px;
+}
+
+.experience-buttons {
+    line-height: 45px;
+}
+/*
+* ** DO NOT CHANGE NAMES of these classes without changing the category label in the database and the code in visitor.php for the top nav bar
+*/
+.tab-all {
+    border-bottom: 3px solid #512da8;
+    color: #111 !important;
+}
+
+.tab-places_to_eat {
+    border-bottom: 3px solid #ba68c8;
+    color: #111 !important;
+    
+}
+
+.tab-restaurants {
+    border-bottom: 3px solid #ba68c8;
+     color: #111;
+    
+}
+
+.tab-drink {
+    border-bottom: 3px solid #9c27b0;
+    color: #111;
+    
+}
+
+.tab-malt {
+    border-bottom: 3px solid #2196f3;
+        color: #111;
+    
+}
+
+.tab-hops {
+    border-bottom: 3px solid #c0ca33;
+        color: #111;
+    
+}
+
+.tab-beer {
+    border-bottom: 3px solid #f44336;
+        color: #111;
+    
+}
+
+.tab-things_to_do {
+    border-bottom: 3px solid #ff5722;
+        color: #111;
+    
+}
+
+.tab-markets {
+    border-bottom: 3px solid #ff5722;
+        color: #111;
+    
+}
+
+.tab-shopping {
+    border-bottom: 3px solid #e91e63;
+        color: #111;
+    
+}
+
+.tab-stores {
+    border-bottom: 3px solid #e91e63;
+        color: #111;
+    
+}
+
+.tab-places_to_stay {
+    border-bottom: 3px solid #2196f3;
+        color: #111;
+    
+}
+
+.tab-all.on {
+    border-bottom: 3px solid #455a64 ;
+    background: #455a64 ;
+    color: #fff;
+    
+}
+
+.tab-places_to_eat.on {
+    border-bottom: 3px solid #9c27b0;
+    background: #9c27b0;
+    color: #fff;
+    
+}
+
+.tab-restaurants.on {
+    border-bottom: 3px solid #9c27b0;
+    background: #9c27b0;
+    color: #fff;
+    
+}
+
+.tab-drink.on {
+    border-bottom: 3px solid #9c27b0;
+    background: #9c27b0;
+    color: #fff;
+    
+}
+
+.tab-things_to_do.on {
+    border-bottom: 3px solid #ff5722;
+    background: #ff5722;
+    color: #fff;
+    
+}
+
+.tab-markets.on {
+    border-bottom: 3px solid #ff5722;
+    background: #ff5722;
+    color: #fff;
+}
+
+.tab-shopping.on {
+    border-bottom: 3px solid #e91e63;
+    background: #e91e63;
+    color: #fff;
+}
+
+.tab-stores.on {
+    border-bottom: 3px solid #e91e63;
+    background: #e91e63;
+    color: #fff;
+}
+
+.tab-places_to_stay.on {
+    border-bottom: 3px solid #2196f3;
+    background: #2196f3;
+    color: #fff;
+}
+
+.tab-malt.on {
+    border-bottom: 3px solid #2196f3;
+    background: #2196f3;
+    color: #fff;
+}
+
+.tab-hops.on {
+    border-bottom: 3px solid #c0ca33;
+    background: #c0ca33;
+    color: #fff;
+}
+
+.tab-beer.on {
+    border-bottom: 3px solid #f44336;
+    background: #f44336;
+    color: #fff;
+}
+
+
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.row {
+    margin-bottom: 0;
+}
+
+/*****************************************************************************
+* Address container for directions
+******************************************************************************/
+
+.directions-container {
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+@media only screen and (max-width : 959px) {
+    .directions-container {
+        padding-right: 0;
+    }
+}
+
+
+
+.bottom-icons {
+line-height: 50px !important;
+display: inline !important;
+padding-right: 10px;
+vertical-align: middle;
+}
+
+
+
+@-moz-keyframes geopulse {
+    0% {
+        -moz-transform: scale(0);
+        opacity: 0.0;
+    }
+    25% {
+        -moz-transform: scale(0);
+        opacity: 0.3;
+    }
+    50% {
+        -moz-transform: scale(0.1);
+        opacity: 0.5;
+    }
+    75% {
+        -moz-transform: scale(0.5);
+        opacity: 0.9;
+    }
+    100% {
+        -moz-transform: scale(1);
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes "geopulse" {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    25% {
+        -webkit-transform: scale(0);
+        opacity: 0.3;
+    }
+    50% {
+        -webkit-transform: scale(0.1);
+        opacity: 0.6;
+    }
+    75% {
+        -webkit-transform: scale(0.5);
+        opacity: 0.9;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0.0;
+    }
+}
+
+#modal-newbrochure-dashboard select, select[name="price"] { 
+    margin: 5px 40px 10px; 
+    width: calc(100% - 3rem);
+}
+
+.tabs .indicator {
+	background-color: #673ab7;
+}
+
+
+
+.distance-box {
+	padding: 0.6rem; 
+	border-radius: 0.3rem; 
+	color: #fff; 
+	font-size: 0.8rem; 
+	margin-right: 6px;
+}
+
+
+@media only screen and (max-width : 959px) {
+    .distance-box {
+    }
+}
+
+#map-canvas{
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute
+    left:0px;
+    overflow: hidden;
+    transform: translateZ(0px);
+    background-color: rgb(229, 227, 223);
+}
+.sb-map-wide {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 48px;
+    margin-bottom: 54px;
+}

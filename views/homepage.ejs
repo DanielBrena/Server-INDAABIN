@@ -1,0 +1,91 @@
+<header>
+        <div class="navbar-fixed">
+           <nav>
+              <div class="nav-wrapper blue-grey darken-3">
+                <a href="#!" class="brand-logo">INDAABIN</a>
+                <ul class="right hide-on-med-and-down">
+                  <li>
+                    <form>
+                      <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                      </div>
+                    </form>
+                  </li>
+                  <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+                  <li><a href="#"><i class="material-icons">refresh</i></a></li>
+                  <li><a class='dropdown-button ' href='#' data-activates='dropdown1'><i class="material-icons">more_vert</i></a></li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+      </header>
+      <!--Dropdonw1-->
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!">Acceder</a></li>
+        
+        <li class="divider"></li>
+      </ul>
+
+      <main>
+        
+          <div class="row map-container center-xs" style="margin-left:0px;">
+            <div class="navbar-fixed experience-bar">
+              <nav class="experience-bar">
+                  <div class="nav-wrapper blue-grey darken-4 experience-buttons">
+                      <div class="col-xs">
+                          <ul class="left select-list action-categorytab-set" data-select="#selectCategory" data-label="#categoriesButton">
+                              <li class="waves-effect waves-light tab-all on" data-category-id="all"><a class="item" data-value="all" data-toast-message="All">Todo</a></li>
+                              <li class="waves-effect waves-light tab-places_to_eat " data-category-id="2"><a class="item" data-value="2" data-toast-message="Eat">Turistico</a></li>
+                              <li class="waves-effect waves-light tab-things_to_do " data-category-id="4"><a class="item" data-value="4" data-toast-message="Play">Cultural</a></li>
+                              <li class="waves-effect waves-light tab-shopping " data-category-id="3"><a class="item" data-value="3" data-toast-message="Shop">Historico</a></li>
+                              
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+            </div>
+
+
+            <div class="col-xs sb-map-wide">
+              <div class="box" style="height: 100%;">
+                <div id="map-canvas"style="left:0px;position:absolute">
+                  
+                </div>
+              </div>
+                
+              
+            </div>
+
+          </div>
+          
+        
+
+
+      </main>
+      <footer>
+          <div class="fixed-bottom hide-on-small-only">
+            <nav class="adjust-sidenav" style="height: 50px; line-height: 50px;" role="navigation">
+                <div class="nav-wrapper blue-grey darken-4">
+                    <div class="row">
+
+                        <div class="col-xs deep-purple center-align">
+                           
+                            <div class="action-notification-on box waves-effect waves-light tooltipped" data-position="top" data-delay="50" data-tooltip="What's Happening" onclick="Materialize.toast('Showing Announcements', 3000)"><i class="mdi-action-event purple-text text-lighten-4 bottom-icons"></i>happening</div>
+                        </div>
+                        <div class="col-xs orange center-align">
+                            <div class="action-deal-on box waves-effect waves-light tooltipped" data-position="top" data-delay="50" data-tooltip="Local Offers" onclick="Materialize.toast('Showing deals', 3000)"><i class="material-icons orange-text text-lighten-4 bottom-icons">announcement</i> offers</div>
+                        </div>
+
+                        <div class="col-xs pink center-align">
+                            <div class="box waves-effect waves-light tooltipped action-favourites-showmodal" data-force="1" data-position="top" data-delay="50" data-tooltip="Display My Favorites"><i class="mdi-action-favorite-outline bottom-icons"></i>favorites</div>
+                        </div>
+                        <div class="col-xs center-align">
+                            <div class="box waves-effect waves-light tooltipped action-geolocation-go" data-position="top" data-delay="50" data-tooltip="Find Me"><i class="mdi-action-face-unlock yellow-text text-lighten-3 bottom-icons"></i>me</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+      </footer>
